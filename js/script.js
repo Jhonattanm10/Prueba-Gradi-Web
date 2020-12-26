@@ -13,7 +13,7 @@ $(function() {
 })
 
 function getBogotaAct() {
-	let url = 'http://api.openweathermap.org/data/2.5/weather?id=3688689&appid=9020d75c328d6040d1dfe00a2eecf79a&units=metric';
+	let url = 'https://api.openweathermap.org/data/2.5/weather?id=3688689&appid=9020d75c328d6040d1dfe00a2eecf79a&units=metric';
 	
 	const api = new XMLHttpRequest();
 	api.open('GET', url, true);
@@ -89,7 +89,7 @@ function getBogotaAct() {
 }
 
 function getBogotaDay1() {
-	let url = 'http://api.openweathermap.org/data/2.5/forecast?id=3688689&cnt=1&appid=3bd3e63583a5679acc67c7b5a892c76d&units=metric';
+	let url = 'https://api.openweathermap.org/data/2.5/forecast?id=3688689&cnt=1&appid=3bd3e63583a5679acc67c7b5a892c76d&units=metric';
 	
 	const api = new XMLHttpRequest();
 	api.open('GET', url, true);
@@ -177,7 +177,7 @@ function getBogotaDay1() {
 }
 
 function getBogotaDay2() {
-	let url = 'http://api.openweathermap.org/data/2.5/forecast?id=3688689&cnt=2&appid=3bd3e63583a5679acc67c7b5a892c76d&units=metric';
+	let url = 'https://api.openweathermap.org/data/2.5/forecast?id=3688689&cnt=2&appid=3bd3e63583a5679acc67c7b5a892c76d&units=metric';
 	
 	const api = new XMLHttpRequest();
 	api.open('GET', url, true);
@@ -268,7 +268,7 @@ function getBogotaDay2() {
 }
 
 function getBogotaDay3() {
-	let url = 'http://api.openweathermap.org/data/2.5/forecast?id=3688689&cnt=3&appid=3bd3e63583a5679acc67c7b5a892c76d&units=metric';
+	let url = 'https://api.openweathermap.org/data/2.5/forecast?id=3688689&cnt=3&appid=3bd3e63583a5679acc67c7b5a892c76d&units=metric';
 	
 	const api = new XMLHttpRequest();
 	api.open('GET', url, true);
@@ -358,7 +358,7 @@ function getBogotaDay3() {
 }
 
 function getParis() {
-	let url = 'http://api.openweathermap.org/data/2.5/weather?id=6455259&appid=9020d75c328d6040d1dfe00a2eecf79a&units=metric';
+	let url = 'https://api.openweathermap.org/data/2.5/weather?id=6455259&appid=9020d75c328d6040d1dfe00a2eecf79a&units=metric';
 	
 	const api = new XMLHttpRequest();
 	api.open('GET', url, true);
@@ -439,7 +439,7 @@ function getParis() {
 }
 
 function getLyon() {
-	let url = 'http://api.openweathermap.org/data/2.5/weather?id=2996944&appid=9020d75c328d6040d1dfe00a2eecf79a&units=metric';
+	let url = 'https://api.openweathermap.org/data/2.5/weather?id=2996944&appid=9020d75c328d6040d1dfe00a2eecf79a&units=metric';
 	
 	const api = new XMLHttpRequest();
 	api.open('GET', url, true);
